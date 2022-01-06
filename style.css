@@ -24,7 +24,7 @@ margin-bottom: 100px;
 }
 .size-big{
     font-size: 50px;
-    margin: 0  ;
+    margin: 10px  ;
     
 }
 .color-change{
@@ -65,5 +65,12 @@ color: mediumturquoise;
     box-shadow: 10px 10px 20px gray;
     background-image:linear-gradient(white,aqua,rgba(0, 0, 255, 0.568));
 }
-
+#color-change{
+    color:red;
 }
+#size-big{
+text-align: center;
+font-size: 50px;
+margin: 80px;
+}
+
