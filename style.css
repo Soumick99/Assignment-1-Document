@@ -2,8 +2,15 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Roboto', sans-serif;   
 }
+p{
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 20px;
+    opacity: 0.8;
+}
 .all-part-equal-width{
 display: flex;
+margin-bottom: 100px;
 }
 .equality{
     width: 50%;
@@ -13,7 +20,7 @@ display: flex;
     height: 500px;   
 }
 .first-equal-width {
-    padding: 50px;
+    padding: 0 100px;
 }
 .size-big{
     font-size: 50px;
@@ -56,4 +63,6 @@ color: mediumturquoise;
 #box-shadow-3{
     box-shadow: 10px 10px 20px gray;
     background-image:linear-gradient(white,aqua,rgba(0, 0, 255, 0.568));
+}
+
 }
