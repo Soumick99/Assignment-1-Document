@@ -35,10 +35,12 @@ color: mediumturquoise;
   ;
 }
 .background{
-    color:deeppink;
+    color:rgb(24, 20, 255);
     text-decoration: none;
     background-image: linear-gradient(aqua,orange);
-    padding: 5px 20px;
+    padding: 5px 30px;
+    font-weight: 900;
+    border-radius:10px ;
 }
 .equal-margin{
     margin:0 150px;
@@ -55,15 +57,18 @@ color: mediumturquoise;
     box-shadow:10px 10px 20px gray;
     background-image:linear-gradient(aqua,rgba(0, 0, 255, 0.808),white);
    width: 350px;
+   border-radius: 30px;
 }
 #box-shadow-2{
     box-shadow: 10px 10px 20px gray;
     background-image:linear-gradient(blue,white,aqua);
     width: 350px;
+    border-radius: 30px;
 }
 #box-shadow-3{
     box-shadow: 10px 10px 20px gray;
     background-image:linear-gradient(white,aqua,rgba(0, 0, 255, 0.568));
+    border-radius: 30px;
 }
 #color-change{
     color:red;
@@ -73,4 +78,20 @@ text-align: center;
 font-size: 50px;
 margin: 80px;
 }
+#background-black{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+#background-img{
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position-x:right;
+}
+#background-img-1{
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position-x:left;
 
